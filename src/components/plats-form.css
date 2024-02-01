@@ -1,0 +1,82 @@
+.form-container {
+  padding: 20px 0px;
+  width: 70%;
+  margin: 20px auto;
+  background-color: #dddddd;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container form label {
+  opacity: 0.5;
+}
+
+.form-container form input {
+  margin-bottom: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-container form textarea {
+  margin-bottom: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+}
+.form-container form select {
+  margin-bottom: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+}
+.form-bottom {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.form-bottom__date {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+}
+
+.form-bottom__date input {
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.form-bottom__btn {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-bottom__btn button {
+  width: 100%;
+  margin-left: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: blueviolet;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}

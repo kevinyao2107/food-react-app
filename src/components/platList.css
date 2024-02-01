@@ -16,6 +16,22 @@
   width: 400px;
   margin: 0px 20px 0px 0px;
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.platlist-item__evailaible {
+  position: absolute;
+  top: 25px;
+  right: -60px;
+  background-color: #83027d;
+  padding: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+  transform: rotate(45deg);
+  width: 180px;
+  display: flex;
+  justify-content: center;
 }
 
 .platlist-item__image img {
@@ -27,6 +43,21 @@
 
 .platlist-item__details {
   flex: 1;
+}
+
+.platlist-item__details button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border: none;
+  background-color: #d81600;
+  color: #fff;
+  border-radius: 3px;
+  transition: background-color 0.6s ease;
+}
+
+.platlist-item__details button:hover {
+  background-color: #9b1202;
 }
 
 .platlist-item__details h4 {
